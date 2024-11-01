@@ -1,3 +1,4 @@
+
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
@@ -6,72 +7,29 @@ body {
     color: #333;
 }
 
-nav {
-    background-color: #4b0082; /* Deep purple */
-    padding: 1rem;
+header {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 1.5rem;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-nav ul li a:hover {
-    color: #dab5f3; /* Lighter purple */
-}
-
-.main-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.profile-picture {
-    flex-shrink: 0;
-    margin-right: 2rem;
-}
-
-.profile-picture img {
-    width: 150px; /* Adjusted size */
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
-.profile-info {
-    max-width: 500px;
-}
-
 h1 {
-    font-size: 2.5rem;
-    color: #4b0082;
     margin: 0;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2rem;
-    color: #4b0082;
+    color: #2f4f4f;
+}
+
+section {
+    padding: 1.5rem;
+    margin: 1rem 0;
 }
 
 a {
-    color: #4b0082;
+    color: #2f4f4f;
     text-decoration: none;
 }
 
@@ -82,6 +40,14 @@ a:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #4b0082;
+    background-color: #2f4f4f;
     color: white;
+}
+
+#cv h2 {
+    font-size: 2rem; /* Adjust this value as needed */
+}
+
+#cv a {
+    font-size: 1.2rem; /* This adjusts the size of the "Download my CV" link */
 }
