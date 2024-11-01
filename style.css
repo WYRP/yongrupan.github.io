@@ -2,12 +2,12 @@ body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: #f9f9f9;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 nav {
-    background-color: #444;
+    background-color: #4b0082; /* Deep purple */
     padding: 1rem;
     text-align: center;
 }
@@ -25,45 +25,48 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f9f9f9;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 nav ul li a:hover {
-    color: #66cc66;
+    color: #dab5f3; /* Lighter purple */
 }
 
-.profile {
-    text-align: center;
-    padding: 2rem;
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.profile img {
-    width: 150px;
+.profile-picture img {
+    width: 200px;
     height: auto;
     border-radius: 50%;
-    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.profile-info {
+    max-width: 500px;
 }
 
 h1 {
     font-size: 2.5rem;
+    color: #4b0082;
     margin: 0;
 }
 
 h2 {
     font-size: 2rem;
-    color: #66cc66;
-}
-
-section {
-    padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+    color: #4b0082;
 }
 
 a {
-    color: #66cc66;
+    color: #4b0082;
     text-decoration: none;
 }
 
@@ -74,6 +77,6 @@ a:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #444;
-    color: #f9f9f9;
+    background-color: #4b0082;
+    color: white;
 }
