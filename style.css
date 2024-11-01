@@ -43,15 +43,20 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-.profile-picture img {
-    width: 100px;
-    height: auto;
-    border-radius: 50%;
+.profile-picture {
+    flex-shrink: 0;
     margin-right: 2rem;
 }
 
+.profile-picture img {
+    width: 150px; /* Adjusted size */
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
 .profile-info {
-    max-width: 200px;
+    max-width: 500px;
 }
 
 h1 {
